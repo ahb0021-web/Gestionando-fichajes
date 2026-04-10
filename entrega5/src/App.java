@@ -8,15 +8,18 @@ public class App {
 
         Entrenador e1 = new Entrenador("Pep Guardiola", "4-3-3");
 
-        Equipo eq1 = new Equipo("Barcelona", e1);
+        Equipo eq1 = new Equipo("FC Barcelona", e1);
+
+        eq1.setEntrenador(e1);
 
         eq1.addJugador(j1);
         eq1.addJugador(j2);
 
+        j1.solicitarTraspaso();
+
         System.out.println(eq1);
 
         Entrenador e2 = new Entrenador("Xavi", "4-3-3");
-
         eq1.setEntrenador(e2);
 
         System.out.println(eq1);

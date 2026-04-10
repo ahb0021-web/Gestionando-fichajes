@@ -14,6 +14,10 @@ public class Jugador {
         this.traspasoSolicitado = false;
     }
 
+    public void solicitarTraspaso() {
+        this.traspasoSolicitado = true;
+    }
+
     @Override
     public String toString() {
         return "Jugador [nombre=" + nombre + ", fechaNacimiento=" + fechaNacimiento
