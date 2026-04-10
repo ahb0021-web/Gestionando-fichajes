@@ -7,4 +7,9 @@ public class Entrenador {
         this.nombre = nombre;
         this.formacionPreferida = formacionPreferida;
     }
+
+    @Override
+    public String toString() {
+        return "Entrenador [nombre=" + nombre + ", formacionPreferida=" + formacionPreferida + "]";
+    }
 }

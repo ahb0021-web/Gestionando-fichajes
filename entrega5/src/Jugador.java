@@ -13,4 +13,10 @@ public class Jugador {
         this.posicion = posicion;
         this.traspasoSolicitado = false;
     }
+
+    @Override
+    public String toString() {
+        return "Jugador [nombre=" + nombre + ", fechaNacimiento=" + fechaNacimiento
+                + ", posicion=" + posicion + ", traspasoSolicitado=" + traspasoSolicitado + "]";
+    }
 }
