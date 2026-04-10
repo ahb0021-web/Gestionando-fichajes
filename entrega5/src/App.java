@@ -15,5 +15,10 @@ public class App {
 
         System.out.println(eq1);
 
+        Entrenador e2 = new Entrenador("Xavi", "4-3-3");
+
+        eq1.setEntrenador(e2);
+
+        System.out.println(eq1);
     }
 }

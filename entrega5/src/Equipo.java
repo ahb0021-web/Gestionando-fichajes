@@ -12,8 +12,14 @@ public class Equipo {
         this.jugadores = new ArrayList<>();
     }
 
+    // añadir jugador
     public void addJugador(Jugador j) {
         jugadores.add(j);
+    }
+
+    // cambiar entrenador
+    public void setEntrenador(Entrenador entrenador) {
+        this.entrenador = entrenador;
     }
 
     @Override
